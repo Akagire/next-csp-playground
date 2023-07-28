@@ -38,14 +38,14 @@ const nextConfig = {
             key: 'Cross-Origin-Resource-Policy',
             value: 'cross-origin',
           },
-          // {
-          //   key: 'Cache-Control',
-          //   value: 'public, max-age=86400', // 1 day
-          // },
           {
-            key: 'Strict-Transport-Security',
-            value: 'max-age=63072000; includeSubDomains; preload', // 2 year
+            key: 'Cache-Control',
+            value: 'public, max-age=86400', // 1 day
           },
+          // {
+          //   key: 'Strict-Transport-Security',
+          //   value: 'max-age=63072000; includeSubDomains; preload', // 2 year
+          // },
         ],
       },
     ];
