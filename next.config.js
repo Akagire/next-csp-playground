@@ -6,10 +6,10 @@ const nextConfig = {
       {
         source: '/(.*)',
         headers: [
-          {
-            key: 'X-DNS-Prefetch-Control',
-            value: 'on',
-          },
+          // {
+          //   key: 'X-DNS-Prefetch-Control',
+          //   value: 'on',
+          // },
           {
             key: 'X-Frame-Options',
             value: 'DENY',
