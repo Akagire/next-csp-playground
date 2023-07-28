@@ -22,22 +22,22 @@ const nextConfig = {
             key: 'X-Content-Type-Options',
             value: 'nosniff',
           },
+          {
+            key: 'Referrer-Policy',
+            value: 'no-referrer',
+          },
           // {
-          //   key: 'Referrer-Policy',
-          //   value: 'no-referrer',
+          //   key: 'Cross-Origin-Embedder-Policy',
+          //   value: 'unsafe-none',
           // },
-          {
-            key: 'Cross-Origin-Embedder-Policy',
-            value: 'unsafe-none',
-          },
-          {
-            key: 'Cross-Origin-Opener-Policy',
-            value: 'same-origin',
-          },
-          {
-            key: 'Cross-Origin-Resource-Policy',
-            value: 'cross-origin',
-          },
+          // {
+          //   key: 'Cross-Origin-Opener-Policy',
+          //   value: 'same-origin',
+          // },
+          // {
+          //   key: 'Cross-Origin-Resource-Policy',
+          //   value: 'cross-origin',
+          // },
           {
             key: 'Cache-Control',
             value: 'public, max-age=86400', // 1 day
