@@ -125,6 +125,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/uuid@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "@types/uuid@npm:9.0.2"
+  checksum: 1754bcf3444e1e3aeadd6e774fc328eb53bc956665e2e8fb6ec127aa8e1f43d9a224c3d22a9a6233dca8dd81a12dc7fed4d84b8876dd5ec82d40f574f7ff8b68
+  languageName: node
+  linkType: hard
+
 "busboy@npm:1.6.0":
   version: 1.6.0
   resolution: "busboy@npm:1.6.0"
@@ -148,6 +155,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"content-security-policy-builder@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "content-security-policy-builder@npm:2.1.1"
+  checksum: c4198ff4c392a3b14cdb5135b36b0c502c437f0d21d171c7f3fac5b8b15d5d138b0a9a62a5bbe5ac9d17bef6c1c88ee164d8cd6b1e602eda86dc106e590b13d4
+  languageName: node
+  linkType: hard
+
 "csp@workspace:.":
   version: 0.0.0-use.local
   resolution: "csp@workspace:."
@@ -155,10 +169,13 @@ __metadata:
     "@types/node": 20.4.5
     "@types/react": 18.2.17
     "@types/react-dom": 18.2.7
+    "@types/uuid": ^9.0.2
+    content-security-policy-builder: ^2.1.1
     next: 13.4.12
     react: 18.2.0
     react-dom: 18.2.0
     typescript: 5.1.6
+    uuid: ^9.0.0
   languageName: unknown
   linkType: soft
 
@@ -371,6 +388,15 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "uuid@npm:9.0.0"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 8dd2c83c43ddc7e1c71e36b60aea40030a6505139af6bee0f382ebcd1a56f6cd3028f7f06ffb07f8cf6ced320b76aea275284b224b002b289f89fe89c389b028
   languageName: node
   linkType: hard
 
